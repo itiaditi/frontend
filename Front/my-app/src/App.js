@@ -17,7 +17,7 @@ function App() {
 
   const fetchUsers = async () => {
     try {
-      const response = await axios.get('https://usermanagement-zczb.onrender.com/api/users');
+      const response = await axios.get('https://backend-0j6o.onrender.com/api/users');
       setUsers(response.data);
     } catch (error) {
       console.error(error);
